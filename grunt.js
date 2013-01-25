@@ -107,7 +107,8 @@ module.exports = function (grunt) {
     grunt.registerTask('default', 'lint build test:unit');
     grunt.registerTask('build', 'clean concat index copy');
     grunt.registerTask('release', 'clean min lint test index copy e2e');
-
+    grunt.registerTask('heroku', 'clean min lint test index copy e2e');
+  
     // HTML stuff
     grunt.registerTask('index', 'Process index.html', function(){
         grunt.file.copy('src/index.html', 'dist/index.html', {process:grunt.template.process});
