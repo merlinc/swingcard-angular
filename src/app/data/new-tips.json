@@ -1,0 +1,140 @@
+[
+{
+  "id": 2,
+  "type": "tip",
+  "title": "Slow",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Slow down"
+},
+
+{
+  "type": "tip",
+  "title": "Body Movement",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Lead movements with your own body first rather than limbs or partner"
+},
+
+{
+  "type": "tip",
+  "title": "Redirect",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Absorb and redirect momentum to maintain energy in the dance. Avoid jarring changes."
+},
+
+{
+  "type": "tip",
+  "title": "Shoulders",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Shoulders back!"
+},
+
+{
+  "type": "tip",
+  "title": "Pulling In Tension",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Pull in with the body, arms maintain previous tension (probably nothing)"
+},
+
+{
+  "type": "tip",
+  "title": "Pull In Stretch",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Free arm back, to generate stretch across body"
+},
+
+
+{
+  "type": "tip",
+  "title": "Hitting Breaks",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "To hit a break, firm up frame"
+},
+
+{
+  "type": "tip",
+  "title": "Hitting Breaks on Rockstep",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Prep motion on the previous #8"
+},
+
+{
+  "type": "tip",
+  "title": "Swing Out to 6-or-8",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "From a swing out, continue linearly for a 6-beat move, circularly for an 8-beat move"
+},
+
+{
+  "type": "tip",
+  "title": "Syncopated triple step",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Syncopate triple step to the music"
+},
+
+{
+  "type": "tip",
+  "title": "Swing Out 5",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Relax / breathe out to reduce tension & frame"
+},
+{
+  "type": "tip",
+  "title": "Prep a Jump",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Push into the floor on the previous count"
+},
+{
+  "type": "tip",
+  "title": "Don't Stop",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "The music is always moving, don't force a restart on #1"
+},
+{
+  "type": "tip",
+  "title": "Dancers",
+  "tags":
+  [  
+  {"tag": "general"}
+  ],
+  "comment": "Dancers who happen to lead & follow NOT leaders & followers who dance"
+}
+]
