@@ -28,7 +28,7 @@ module.exports = function (grunt) {
             files: {'<%= distdir %>/': 'src/assets/**'}
           },
           css: {
-            files: {'<%= distdir %>/css/': 'vendor/bootstrap/css/**'}
+            files: {'<%= distdir %>/css/': 'vendor/font-awesome/css/**'}
           },
           partials: {
             files: {'<%= distdir %>/partials/': 'src/app/partials/**'}
@@ -36,8 +36,8 @@ module.exports = function (grunt) {
           data: {
             files: {'<%= distdir %>/data/': 'src/app/data/**'}
           },
-          bootstrap: {
-            files: {'<%= distdir %>/img/': 'vendor/bootstrap/img/**'}
+          fonts: {
+            files: {'<%= distdir %>/font/': 'vendor/font-awesome/font/**'}
           }
         },
         concat:{
@@ -48,10 +48,6 @@ module.exports = function (grunt) {
           angular: {
             src:['vendor/angular/angular.js'],
             dest: '<%= distdir %>/angular.js'
-          },
-          bootstrap: {
-            src:['vendor/bootstrap/js/*.js'],
-            dest: '<%= distdir %>/bootstrap.js'
           },
           jquery: {
             src:['vendor/jquery/*.js'],
@@ -70,10 +66,6 @@ module.exports = function (grunt) {
           mongo: {
             src:['vendor/mongolab/*.js'],
             dest: '<%= distdir %>/mongolab.js'
-          },
-          bootstrap: {
-            src:['vendor/bootstrap/*.js'],
-            dest: '<%= distdir %>/bootstrap.js'
           },
           jquery: {
             src:['vendor/jquery/*.js'],

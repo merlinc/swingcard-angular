@@ -1,7 +1,7 @@
 <article>
   <navigation id="header">
-    <a id="menuButton" href="#/move" class="btn btn-small"><i class="icon-list"></i></a>
-    <a id="favouriteButton" href="#" class="btn btn-small disabled"><i class="icon-star-empty"></i></a>
+    <a id="menuButton" href="#/move" class="btn btn-small"><i class="icon-list icon-large"></i></a>
+    <a id="favouriteButton" href="#" class="btn btn-small disabled"><i class="icon-star-empty icon-large"></i></a>
     <h1>(#{{movesModel.currentMoveIndex}}) {{movesModel.currentMove.title}}</h1>
   </navigation>
 
@@ -36,9 +36,9 @@
   </table>
 
     <navigation id="moveNavigation">
-    <a href="#/move/{{movesModel.previousMoveIndex}}" class="btn btn-small"><i class="icon-arrow-left"></i></a>
-    <a href="#/move/{{movesModel.currentMoveIndex}}/completed" class="btn btn-small"><i class="icon-ok"></i></a>
-    <a href="#/move/{{movesModel.currentMoveIndex}}/failed" class="btn btn-small"><i class="icon-remove"></i></a>
-    <a href="#/move/{{movesModel.nextMoveIndex}}" class="btn btn-small"><i class="icon-arrow-right"></i></a>
+    <a href="#/move/{{movesModel.previousMoveIndex}}" class="btn btn-primary btn-small"><i class="icon-arrow-left icon-large"></i></a>
+    <a href="#/move/{{movesModel.currentMoveIndex}}/completed" class="btn btn-success btn-small"><i class="icon-ok icon-large"></i></a>
+    <a href="#/move/{{movesModel.currentMoveIndex}}/failed" class="btn btn-warning btn-small"><i class="icon-remove icon-large"></i></a>
+    <a href="#/move/{{movesModel.nextMoveIndex}}" class="btn btn-primary btn-small"><i class="icon-arrow-right icon-large"></i></a>
   </navigation>
 </article>
