@@ -100,6 +100,23 @@ module.exports = function (grunt) {
                 eqnull:true
             },
             globals:{}
+        },
+        watch: {
+          gruntfile: {
+            files: 'grunt.js',
+            tasks: ['lint'],
+            options: {
+              nocase: true
+            }
+          },
+          src: {
+            files: ['src/**/*.js', 'src/**/*.css', 'src/**/*.html'], /*, '!lib/dontwatch.js'],*/
+            tasks: ['default']
+          },
+          test: {
+            files: ['test/**/*.js'],
+            tasks: ['lint', 'test']
+          }
         }
     });
 
