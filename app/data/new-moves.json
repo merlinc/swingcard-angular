@@ -1,0 +1,320 @@
+[
+{
+  "type": "move",
+  "title": "Outside Turn",
+  "tags":
+  [
+  {"tag": "8 beat"},
+  {"tag": "turn"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["10"], "description": "raise left hand as flat hand"},
+    {"sid": 10, "beats":["01"], "description": "rotate raised hand around followers head as they rotate in swing out"},
+    {"sid": 10, "beats":["111"], "description": "maintain lego style hand so hands rotate around to end up in correct grip"}
+    ],
+  "start": "open",
+  "finish": "open",
+  "comments": ""
+},
+
+{
+  "type": "move",
+  "title": "Tuck Turn (closed)",
+  "tags":
+  [
+  {"tag": "8 beat"},
+  {"tag": "turn"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","111"], "description": "free tuck turn"},
+    {"sid": 10, "beats":["10"], "description": "place left hand on back as follow rotates around"},
+    {"sid": 10, "beats":["01"], "description": "extend into stretch slightly earlier"},
+    {"sid": 10, "beats":["100"], "description": "continue rotating"},
+    {"sid": 10, "beats":["011"], "description": "into closed"}
+    ],
+  "start": "closed",
+  "finish": "closed",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Outside Turn (stop)",
+  "tags":
+  [
+  {"tag": "8 beat"},
+  {"tag": "turn"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","111","10"], "description": "outside turn"},
+    {"sid": 10, "beats":["01"], "description": "increase  tension in arm"},
+    {"sid": 10, "beats":["100"], "description": "leave at shoulder level"},
+    {"sid": 10, "beats":["010"], "description": "firm up for a stop"}
+    ],
+  "start": "open",
+  "finish": "open",
+  "comments": ""
+},
+
+{
+  "type": "move",
+  "title": "Outside Turn (wrap)",
+  "tags":
+  [
+  {"tag": "8 beat"},
+  {"tag": "turn"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","111"], "description": "outside turn"},
+    {"sid": 10, "beats":["10"], "description": "place hand on back"},
+    {"sid": 10, "beats":["01", "10"], "description": "rotate left hand, wrap around with right"}
+    ],
+  "start": "open",
+  "finish": "closed",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Tap Behind",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","10"], "description": "Side by Side Charleston, maintain bounce"},
+    {"sid": 10, "beats":["01"], "description": "Move partner into facing position, maintain bounce"},
+    {"sid": 10, "beats":["10"], "description": "Continuing momentum, tap with free foot"},
+    {"sid": 10, "beats":["01","11"], "description": "Open back out into charleston"}
+    ],
+  "start": "side-by-side",
+  "finish": "side-by-side",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Johnny Drop",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Rock-Step"},
+    {"sid": 10, "beats":["10"], "description": "Kick and move away from partner"},
+    {"sid": 10, "beats":["01"], "description": "Land, and pull back towards partner so that left foot ends up cross in front of body"},
+    {"sid": 10, "beats":["11"], "description": "Rock-Step on right"},
+    {"sid": 10, "beats":["10"], "description": "Land on right and hold"}
+    ],
+  "start": "side-by-side",
+  "finish": "side-by-side",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Peel away",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Rock-Step, kill bounce"},
+    {"sid": 10, "beats":["11"], "description": "Turn towards partner, kill bounce"},
+    {"sid": 10, "beats":["11","10"], "description": "Rotate, in direction of momentum, away from follow"},
+    {"sid": 10, "beats":["01"], "description": "Back into side-by-side"}
+    ],
+  "start": "side-by-side",
+  "finish": "side-by-side",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Turn on 5",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","11"], "description": "Normal charleston, holding hands across front"},
+    {"sid": 10, "beats":["10"], "description": "Kick and move right hand from outside side, to inside hip"},
+    {"sid": 10, "beats":["01"], "description": "Push follows hip, and rotate away"},
+    {"sid": 10, "beats":["10"], "description": "Kick"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+
+{
+  "type": "move",
+  "title": "Knee Slap",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","11"], "description": "Normal charleston"},
+    {"sid": 10, "beats":["10"], "description": "Right foot up"},
+    {"sid": 10, "beats":["01"], "description": "Slap & plant right foot down"},
+    {"sid": 10, "beats":["10"], "description": "Left Knee up and slap with left hand"},
+    {"sid": 10, "beats":["10"], "description": "Hold"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+
+{
+  "type": "variation",
+  "title": "Cowboy Kick",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11","11"], "description": "Normal charleston"},
+    {"sid": 10, "beats":["10"], "description": "Right foot up and in front"},
+    {"sid": 10, "beats":["01"], "description": "Right foot across body onto left hand side"},
+    {"sid": 10, "beats":["10"], "description": "Right foot up and in front"},
+    {"sid": 10, "beats":["01"], "description": "Right food down."}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+
+{
+  "type": "variation",
+  "title": "Standing Fall",
+  "tags":
+  [
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats": ["11","11","10"], "description": "Standard charleston"},
+    {"sid": 10, "beats":["01"], "description": "Slide feet out sideways"},
+    {"sid": 10, "beats":["10"], "description": "Stand up tall"},
+    {"sid": 10, "beats":["11"], "description": "Fall back through into ..."},
+    {"sid": 10, "beats":["10"], "description": "... left foot down"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},{
+  "type": "variation",
+  "title": "Standing Heels",
+  "tags":
+  [
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats": ["11","11","10"], "description": "Standard charleston"},
+    {"sid": 10, "beats":["01"], "description": "Prep down"},
+    {"sid": 10, "beats":["10"], "description": "Jump up a little, onto heels"},
+    {"sid": 10, "beats":["11"], "description": "Fall back through into ..."},
+    {"sid": 10, "beats":["10"], "description": "... left foot down"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Forward Gallop",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Rock-Step"},
+    {"sid": 10, "beats":["10"], "description": "Prep body down... "},
+    {"sid": 10, "beats":["01"], "description": "... jump ..."},
+    {"sid": 10, "beats":["10"], "description": "... and land"},
+    {"sid": 10, "beats":["01"], "description": "Lean up into the momentum and hold"},
+    {"sid": 10, "beats":["10"], "description": "Step backwards onto the right"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Backwards Gallop",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"},
+  {"dev-tag": "unclear"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Rock-Step"},
+    {"sid": 10, "beats":["10"], "description": "Up and hold"},
+    {"sid": 10, "beats":["01"], "description": "Down"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Charleston Skate",
+  "tags":
+  [
+  {"tag": "charleston"},
+  {"tag": "side-by-side"},
+  {"dev-tag": "unclear"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Rock-Step"},
+    {"sid": 10, "beats":["10"], "description": "Plant Left"},
+    {"sid": 10, "beats":["01", "11", "100"], "description": "Skate Forwards"},
+    {"sid": 10, "beats":["011"], "description": "Stomp Off"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+},
+{
+  "type": "move",
+  "title": "Running entry into Tandem",
+  "tags":
+  [
+  {"tag": "transition"},
+  {"tag": "6-beat kicks"},
+  {"tag": "6-beat"},
+  {"tag": "charleston"},
+  {"tag": "tandem"},
+  {"tag": "10-count"},
+  {"dev-tag": "unclear"}
+  ],
+  "steps":
+    [
+    {"sid": 10, "beats":["11"], "description": "Tuck away"},
+    {"sid": 10, "beats":["111"], "description": "Tuck towards"},
+    {"sid": 10, "beats":["10"], "description": "Hand over follow's head, and turn away & kick"},
+    {"sid": 10, "beats":["10"], "description": "Rotate into stretch and kick"},
+    {"sid": 10, "beats":["10"], "description": "Pull arm and turn around, kicking"},
+    {"sid": 10, "beats":["10"], "description": "Left foot backwards, while left hand moves forward to collect follow's hand"}
+    ],
+  "start": "side-by-side",
+  "finish": "",
+  "comments": ""
+}
+]

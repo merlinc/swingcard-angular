@@ -1,0 +1,11 @@
+<article>
+  <navigation id="header">
+    <a id="homeButton" href="#/" class="btn btn-small"><i class="glyphicon glyphicon-home"></i></a>
+    <h1>Moves List</h1>
+  </navigation>
+
+  <ol>
+    <li ng-repeat="move in movesModel.moves"><a href="#/move/{{movesModel.moves.indexOf(move)}}">{{move.title}}</a></li>
+  </ol>
+</article>
+
