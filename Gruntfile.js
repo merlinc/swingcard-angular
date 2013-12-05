@@ -280,7 +280,9 @@ module.exports = function (grunt) {
             'bower_components/**/*',
             'images/{,*/}*.{webp}',
             'data/*',
-            'fonts/*'
+            'fonts/*',
+            'app-heroku.js', // heroku
+            'Procfile' // heroku
           ]
         }, {
           expand: true,

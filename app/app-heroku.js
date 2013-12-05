@@ -3,7 +3,7 @@ var app = express();
 
 
 app.configure(function(){
-  app.use(express.static(__dirname + '/dist'));
+  app.use(express.static(__dirname + '/'));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(express.logger());
