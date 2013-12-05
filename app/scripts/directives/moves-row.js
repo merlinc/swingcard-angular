@@ -30,13 +30,12 @@ angular.module('swingcardApp')
         $scope.beatCount = 12;
         $scope.tableCtrl = this;
       },
-      templateUrl: 'views/x-steps-table.html',
+      templateUrl: 'views/directives/x-steps-table.html',
     };
   })
   .directive('stepsRow', function() {
     return {
-      require: '^stepsTable',
       restrict: 'EA',
-      templateUrl: 'views/x-steps-row.html'
+      templateUrl: 'views/directives/x-steps-row.html'
     };
   });

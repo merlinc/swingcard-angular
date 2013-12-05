@@ -20,8 +20,15 @@ module.exports = function(config) {
       'app/scripts/*.js',
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
-      'test/spec/**/*.js'
+      'test/spec/**/*.js',
+      'app/views/directives/*.html'
     ],
+
+    // generate js files from html templates to expose them during testing.
+    preprocessors: {
+      'app/views/directives/**/*.html': 'html2js'
+    },
+
 
     // list of files / patterns to exclude
     exclude: [],
