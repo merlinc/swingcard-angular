@@ -2,6 +2,7 @@
 {
   "type": "move",
   "title": "Outside Turn",
+  "slug": "outside-turn",
   "tags":
   [
   {"tag": "8 beat"},
@@ -21,6 +22,7 @@
 {
   "type": "move",
   "title": "Tuck Turn (closed)",
+  "slug": "tuck-turn-(closed)",
   "tags":
   [
   {"tag": "8 beat"},
@@ -41,6 +43,7 @@
 {
   "type": "move",
   "title": "Outside Turn (stop)",
+  "slug": "outside-turn-(stop)",
   "tags":
   [
   {"tag": "8 beat"},
@@ -61,6 +64,7 @@
 {
   "type": "move",
   "title": "Outside Turn (wrap)",
+  "slug": "outside-turn-(wrap)",
   "tags":
   [
   {"tag": "8 beat"},
@@ -79,6 +83,7 @@
 {
   "type": "move",
   "title": "Tap Behind",
+  "slug": "tap-behind",
   "tags":
   [
   {"tag": "charleston"},
@@ -98,6 +103,7 @@
 {
   "type": "move",
   "title": "Johnny Drop",
+  "slug": "johnny-drop",
   "tags":
   [
   {"tag": "charleston"},
@@ -118,6 +124,7 @@
 {
   "type": "move",
   "title": "Peel away",
+  "slug": "peel-away",
   "tags":
   [
   {"tag": "charleston"},
@@ -137,6 +144,7 @@
 {
   "type": "move",
   "title": "Turn on 5",
+  "slug": "turn-on-5",
   "tags":
   [
   {"tag": "charleston"},
@@ -157,6 +165,7 @@
 {
   "type": "move",
   "title": "Knee Slap",
+  "slug": "knee-slap",
   "tags":
   [
   {"tag": "charleston"},
@@ -178,6 +187,7 @@
 {
   "type": "variation",
   "title": "Cowboy Kick",
+  "slug": "cowboy-kick",
   "tags":
   [
   {"tag": "charleston"},
@@ -199,6 +209,7 @@
 {
   "type": "variation",
   "title": "Standing Fall",
+  "slug": "standing-fall",
   "tags":
   [
   ],
@@ -216,6 +227,7 @@
 },{
   "type": "variation",
   "title": "Standing Heels",
+  "slug": "standing-heels",
   "tags":
   [
   ],
@@ -234,6 +246,7 @@
 {
   "type": "move",
   "title": "Forward Gallop",
+  "slug": "forward-gallop",
   "tags":
   [
   {"tag": "charleston"},
@@ -255,6 +268,7 @@
 {
   "type": "move",
   "title": "Backwards Gallop",
+  "slug": "backwards-gallop",
   "tags":
   [
   {"tag": "charleston"},
@@ -274,6 +288,7 @@
 {
   "type": "move",
   "title": "Charleston Skate",
+  "slug": "charleston-skate",
   "tags":
   [
   {"tag": "charleston"},
@@ -294,6 +309,7 @@
 {
   "type": "move",
   "title": "Running entry into Tandem",
+  "slug": "running-entry-into-tandem",
   "tags":
   [
   {"tag": "transition"},
