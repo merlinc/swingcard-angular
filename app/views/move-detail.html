@@ -1,29 +1,69 @@
-<article>
-  <navigation id="header">
-    <a id="homeButton" href="#/" class="btn btn-small"><i class="glyphicon glyphicon-home"></i></a>
-    <a id="menuButton" href="#/move" class="btn btn-small"><i class="glyphicon glyphicon-th-list"></i></a>
-    <h1>(#{{movesModel.currentMoveIndex + 1}}) {{movesModel.currentMove.title}}</h1>
-  </navigation>
+<navigation class="sideMenu">
+  <div class="mainMenu">
+    <ul class="nav nav-pills">
+      <li class="active"><a>Move</a></li>
+      <li><a>Tip</a></li>
+    </ul>
+  </div>
+  <div class="moveMenu">
+    <div class="btn-group">
+      <a ng-click="moveSucceeded()" class="btn btn-success btn-small"><span class="glyphicon glyphicon-thumbs-up"></span><span class="attemptCount">4</span></a>
+      <a ng-click="moveFailed()" class="btn btn-warning btn-small"><span class="glyphicon glyphicon-thumbs-down"></span><span class="attemptCount">3</span></a>
+      <a ng-click="randomMove()" class="btn btn-primary btn-small"><span class="glyphicon glyphicon-random"></span></a>
+    </div>
+  </div>
+</navigation>
 
-  <div id="stats">
-    <ol id="positions">
-      <li><a href="#/search/start/{{movesModel.currentMove.start}}">{{movesModel.currentMove.start}}</a></li>
-      <li><a href="#/search/finish/{{movesModel.currentMove.finish}}">{{movesModel.currentMove.finish}}</a></li>
+
+<article ng-swipe-left="randomMove()" ng-swipe-right="randomMove()">
+  <header>
+    <h1>{{move.title}}</h1>
+  <header> 
+
+  <div class="stats">
+    <ol class="positions">
+      <li>Start:
+        <ul>
+          <li>open</li>
+          <li>6 beat</li>
+        </ul>
+      </li>
+      <li>Finish:
+        <ul>
+          <li>closed</li>
+          <li>tandem charlestom</li>
+        </ul>
+      </li>
     </ol>
+  </div>
 
     <!--
     <ul id="tags">
-      <li ng-repeat="tag in movesModel.currentMove.tags"><a href="#/search/tags/{{tag.tag}}">{{tag.tag}}</a></li>
+      <li ng-repeat="tag in move.tags"><a href="#/search/tags/{{tag.tag}}">{{tag.tag}}</a></li>
     </ul>-->
 
   </div>
 
-  <steps-table steps="movesModel.currentMove.steps"></steps-table>
-
-  <navigation id="moveNavigation">
-    <a href="#/move/{{movesModel.previousMoveIndex}}" class="btn btn-primary btn-small"><i class="icon-arrow-left icon-large glyphicon glyphicon-arrow-left"></i></a>
-    <a href="#/move/{{movesModel.currentMoveIndex}}/completed" class="btn btn-success btn-small"><i class="icon-ok icon-large glyphicon glyphicon-thumbs-up"></i></a>
-    <a href="#/move/{{movesModel.currentMoveIndex}}/failed" class="btn btn-warning btn-small"><i class="icon-remove icon-large glyphicon glyphicon-thumbs-down"></i></a>
-    <a href="#/move/{{movesModel.nextMoveIndex}}" class="btn btn-primary btn-small"><i class="icon-arrow-right icon-large glyphicon glyphicon-arrow-right"></i></a>
-  </navigation>
+<!--     <steps-row ng-repeat="step in move.steps">
+ -->
+   <table class="table table-bordered table-striped table-hover" id="#steps">
+    <colgroup id="count" class="countColumn" colspan="2"></colgroup>
+    <colgroup id="step" class="stepColumn"></colgroup>
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>step</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="step in move.steps">{{step.step.description}} {{step || json}} {{beatsCount}} 
+        <td>{{step.beatsCount}}
+          <div style="display:none" ng-repeat="beat in step.beats track by $index">
+            <div>{{beat}}</div>
+          </div>
+        </td>
+        <td>{{step.description}}</td>
+      </tr>
+    </tbody>
+  </table>
 </article>

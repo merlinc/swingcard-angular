@@ -1,6 +1,8 @@
-<td>{{step.beatsCount | beats}}
-  <div style="display:none" ng-repeat="beat in step.beats track by $index">
-    <div>{{beat}}</div>
-  </div>
-</td>
-<td>{{step.description}}</td>
+<tr>{{step.step.description}} {{step || json}} {{beatsCount}} 
+  <td>{{step.beatsCount | beats}}
+    <div style="display:none" ng-repeat="beat in step.beats track by $index">
+      <div>{{beat}}</div>
+    </div>
+  </td>
+  <td>{{step.description}}</td>
+</tr>

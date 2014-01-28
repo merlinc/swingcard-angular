@@ -12,7 +12,7 @@ body {
 article {
 /*  border: 0px solid #c4c4c4;*/
   padding: 5px;
-  margin: 5px;
+  margin: 0 5px 0 0;
   background: #fffafa;
 
   border-width: 1px;
@@ -24,6 +24,8 @@ article {
   border-radius:  7px;
   -moz-border-radius: 7px;
   -webkit-border-radius:  7px;
+  display: inline-block;
+
 }
 
 #header {
@@ -32,27 +34,50 @@ article {
   border-bottom: 1px solid #504f4f;
 }
 
-navigation > h1 {
-    color: #504f4f;
-    font-size: 18px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    line-height: 1;
-    display:block;
+.sideMenu {
+  display: inline-block;
+
+  height: 200px;
+  margin: 0 5px 0 0;
+  padding: 0;
 }
 
+.sideMenu .mainMenu, .sideMenu .moveMenu {
+  padding: 5px;
+  background: #fffafa;
+  margin: 0;
 
-#header a {
-  color: #504f4f;
-  text-decoration: none;
+  border-width: 1px;
+  border-style:solid;
+  border-bottom-color:#bbb;
+  border-right-color:#bbb;
+  border-top-color:#ddd;
+  border-left-color:#ddd;
+  border-radius:  7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius:  7px;  
 }
 
+.sideMenu .moveMenu {
+  margin-top: 10px;
+}
+.sideMenu .btn {
+  text-size: 10px;
+  width: 65px;
+}
+
+.attemptCount {
+  margin-left: 6px;
+}
+
+header h1 {
+  font-size: 40px;
+  text-align: center;
+}
 #menuButton, #homeButton {
   padding: 2;
   margin: 0;
   border: 0;
-  float: left;
 }
 
 #stats {
@@ -64,14 +89,13 @@ navigation > h1 {
 }
 
 #positions {
-  display: inline;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 #positions > li {
-  display: inline;
+  list-style: none;
   margin: 2px;
   padding: 0;
 }
@@ -111,12 +135,38 @@ navigation > h1 {
 
 /* mobile settings
 @media only screen and (max-device-width: 480px) {
-}
+  article {
+    width: 400px;
+  }}
 
 /* browser settings */
 @media only screen and (min-width: 800px) {
   article {
     width: 500px;
-    margin: 0 auto;
   }
+}
+
+.stats {
+  clear: both;
+  padding-top: 20px;
+}
+
+.stats2 > ol {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+
+.stats2 > ol > li {
+  width: 200px; height: 30px;
+  border: 1px solid red;
+  margin: 5px;
+}
+
+.stats2 > ol > li > ul {
+/*  display: inline;*/
+}
+.stats2 li {
+  list-style: none;
+  display: inline-flex;
 }

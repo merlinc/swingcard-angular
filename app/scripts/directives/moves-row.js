@@ -22,19 +22,19 @@ angular.module('swingcardApp')
   })
   .directive('stepsTable', function() {
     return {
-      restrict: 'EA',
       scope: {
-        steps: '=steps',
+        steps: '=steps'
       },
-      controller: function($scope) {
-        $scope.beatCount = 12;
-        $scope.tableCtrl = this;
-      },
-      templateUrl: 'views/directives/x-steps-table.html',
+      restrict: 'EA',
+      transclude: true,
+      templateUrl: 'views/directives/x-steps-table.html'
     };
   })
   .directive('stepsRow', function() {
     return {
+      scope: {
+        steps: '=steps'
+      },
       restrict: 'EA',
       templateUrl: 'views/directives/x-steps-row.html'
     };
