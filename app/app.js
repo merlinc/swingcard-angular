@@ -9,15 +9,15 @@ angular.module('swingcardApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/home.html',
-        controller: 'MainCtrl'
+        templateUrl: 'partials/home/home.html',
+        controller: 'HomeCtrl'
       })
       .when('/move/', {
-        templateUrl: 'views/move-list.html',
+        templateUrl: 'partials/move-list/move-list.html',
         controller: 'MoveListCtrl'
       })
       .when('/move/:moveId', {
-        templateUrl: 'views/move-detail.html',
+        templateUrl: 'partials/move-detail/move-detail.html',
         controller: 'MoveDetailCtrl'
       })
       .otherwise({
